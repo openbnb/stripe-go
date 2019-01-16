@@ -47,7 +47,7 @@ func GetByID(id string, params *stripe.AccountParams) (*stripe.Account, error) {
 
 // GetByID retrieves an account.
 func (c Client) GetByID(id string, params *stripe.AccountParams) (*stripe.Account, error) {
-	path := stripe.FormatURLPath("/v1/accounts/%s", id)
+	path := stripe.FormatURLPath("/accounts/%s", id)
 	account := &stripe.Account{}
 	err := c.B.Call(http.MethodGet, path, c.Key, params, account)
 	return account, err
