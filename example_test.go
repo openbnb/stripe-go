@@ -3,11 +3,11 @@ package stripe_test
 import (
 	"log"
 
-	stripe "github.com/stripe/stripe-go/v55"
-	"github.com/stripe/stripe-go/v55/charge"
-	"github.com/stripe/stripe-go/v55/customer"
-	"github.com/stripe/stripe-go/v55/invoice"
-	"github.com/stripe/stripe-go/v55/plan"
+	stripe "github.com/openbnb/stripe-go/v55"
+	"github.com/openbnb/stripe-go/v55/charge"
+	"github.com/openbnb/stripe-go/v55/customer"
+	"github.com/openbnb/stripe-go/v55/invoice"
+	"github.com/openbnb/stripe-go/v55/plan"
 )
 
 func ExampleCharge_new() {

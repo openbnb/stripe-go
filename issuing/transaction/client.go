@@ -6,8 +6,8 @@ package transaction
 import (
 	"net/http"
 
-	stripe "github.com/stripe/stripe-go/v55"
-	"github.com/stripe/stripe-go/v55/form"
+	stripe "github.com/openbnb/stripe-go/v55"
+	"github.com/openbnb/stripe-go/v55/form"
 )
 
 // Client is used to invoke /issuing/transactions APIs.

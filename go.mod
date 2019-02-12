@@ -1,4 +1,4 @@
-module github.com/stripe/stripe-go/v55
+module github.com/openbnb/stripe-go/v55
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

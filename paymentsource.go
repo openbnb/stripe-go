@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/stripe/stripe-go/v55/form"
+	"github.com/openbnb/stripe-go/v55/form"
 )
 
 // PaymentSourceType consts represent valid payment sources.

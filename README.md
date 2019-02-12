@@ -1,6 +1,6 @@
 # Go Stripe
 
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/stripe/stripe-go)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/openbnb/stripe-go)
 [![Build Status](https://travis-ci.org/stripe/stripe-go.svg?branch=master)](https://travis-ci.org/stripe/stripe-go)
 [![Coverage Status](https://coveralls.io/repos/github/stripe/stripe-go/badge.svg?branch=master)](https://coveralls.io/github/stripe/stripe-go?branch=master)
 
@@ -11,15 +11,15 @@ The official [Stripe][stripe] Go client library.
 Install stripe-go with:
 
 ```sh
-go get -u github.com/stripe/stripe-go
+go get -u github.com/openbnb/stripe-go
 ```
 
 Then, import it using:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go"
-    "github.com/stripe/stripe-go/customer"
+    "github.com/openbnb/stripe-go"
+    "github.com/openbnb/stripe-go/customer"
 )
 ```
 
@@ -32,7 +32,7 @@ requirement in your `go.mod` along with its current version:
 module github.com/my/package
 
 require (
-    github.com/stripe/stripe-go v55.8.0
+    github.com/openbnb/stripe-go v55.8.0
 )
 ```
 
@@ -40,8 +40,8 @@ Imports should contain the major version as a virtual component of each path:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go/v55"
-    "github.com/stripe/stripe-go/v55/customer"
+    "github.com/openbnb/stripe-go/v55"
+    "github.com/openbnb/stripe-go/v55/customer"
 )
 ```
 
@@ -132,8 +132,8 @@ To use a key, pass it to `API`'s `Init` function:
 ```go
 
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 stripe := &client.API{}
@@ -154,8 +154,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -191,8 +191,8 @@ client.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/$resource$"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/$resource$"
 )
 
 // Setup
@@ -231,8 +231,8 @@ individual key.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 // Setup
@@ -302,7 +302,7 @@ It also depends on [stripe-mock][stripe-mock], so make sure to fetch and run it 
 background terminal ([stripe-mock's README][stripe-mock-usage] also contains
 instructions for installing via Homebrew and other methods):
 
-    go get -u github.com/stripe/stripe-mock
+    go get -u github.com/openbnb/stripe-mock
     stripe-mock
 
 Run all tests:
@@ -323,14 +323,14 @@ pull request][pulls].
 [api-docs]: https://stripe.com/docs/api/go
 [api-changelog]: https://stripe.com/docs/upgrades
 [connect]: https://stripe.com/docs/connect/authentication
-[godoc]: http://godoc.org/github.com/stripe/stripe-go
-[issues]: https://github.com/stripe/stripe-go/issues/new
+[godoc]: http://godoc.org/github.com/openbnb/stripe-go
+[issues]: https://github.com/openbnb/stripe-go/issues/new
 [modules]: https://github.com/golang/go/wiki/Modules
 [package-management]: https://code.google.com/p/go-wiki/wiki/PackageManagementTools
-[pulls]: https://github.com/stripe/stripe-go/pulls
+[pulls]: https://github.com/openbnb/stripe-go/pulls
 [stripe]: https://stripe.com
-[stripe-mock]: https://github.com/stripe/stripe-mock
-[stripe-mock-usage]: https://github.com/stripe/stripe-mock#usage
+[stripe-mock]: https://github.com/openbnb/stripe-mock
+[stripe-mock-usage]: https://github.com/openbnb/stripe-mock#usage
 
 <!--
 # vim: set tw=79:

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stripe/stripe-go/v55/form"
+	"github.com/openbnb/stripe-go/v55/form"
 )
 
 //
@@ -316,7 +316,7 @@ func (s *BackendImplementation) Do(req *http.Request, body *bytes.Buffer, v inte
 		//
 		// And our original bug report here:
 		//
-		//     https://github.com/stripe/stripe-go/issues/642
+		//     https://github.com/openbnb/stripe-go/issues/642
 		//
 		// To workaround the problem, we put a fresh `Body` onto the `Request`
 		// every time we execute it, and this seems to empirically resolve the
@@ -334,7 +334,7 @@ func (s *BackendImplementation) Do(req *http.Request, body *bytes.Buffer, v inte
 			// usually not used, but it doesn't hurt to set it in case it's
 			// needed. See:
 			//
-			//     https://github.com/stripe/stripe-go/issues/710
+			//     https://github.com/openbnb/stripe-go/issues/710
 			//
 			req.GetBody = func() (io.ReadCloser, error) {
 				reader := bytes.NewReader(body.Bytes())

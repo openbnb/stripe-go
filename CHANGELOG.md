@@ -1,275 +1,275 @@
 # Changelog
 
 ## 55.8.0 - 2019-01-09
-* [#763](https://github.com/stripe/stripe-go/pull/763) Add `application_fee_amount` to `Charge` and on charge create and capture params
+* [#763](https://github.com/openbnb/stripe-go/pull/763) Add `application_fee_amount` to `Charge` and on charge create and capture params
 
 ## 55.7.0 - 2019-01-09
-* [#738](https://github.com/stripe/stripe-go/pull/738) Add support for the account link resource
+* [#738](https://github.com/openbnb/stripe-go/pull/738) Add support for the account link resource
 
 ## 55.6.0 - 2019-01-09
-* [#762](https://github.com/stripe/stripe-go/pull/762) Add support for new invoice items parameters when retrieving an upcoming invoice
+* [#762](https://github.com/openbnb/stripe-go/pull/762) Add support for new invoice items parameters when retrieving an upcoming invoice
 
 ## 55.5.0 - 2019-01-07
-* [#744](https://github.com/stripe/stripe-go/pull/744) Add support for `transfer_data[destination]` on Charge struct and params
-* [#746](https://github.com/stripe/stripe-go/pull/746) Add support for `wallet_provider` on the Issuing Authorization
+* [#744](https://github.com/openbnb/stripe-go/pull/744) Add support for `transfer_data[destination]` on Charge struct and params
+* [#746](https://github.com/openbnb/stripe-go/pull/746) Add support for `wallet_provider` on the Issuing Authorization
 
 ## 55.4.0 - 2019-01-07
-* [#745](https://github.com/stripe/stripe-go/pull/745) Add support for `pending` parameter when listing invoice items
+* [#745](https://github.com/openbnb/stripe-go/pull/745) Add support for `pending` parameter when listing invoice items
 
 ## 55.3.0 - 2019-01-02
-* [#742](https://github.com/stripe/stripe-go/pull/742) Add field `FraudType` to `IssuerFraudRecord`
+* [#742](https://github.com/openbnb/stripe-go/pull/742) Add field `FraudType` to `IssuerFraudRecord`
 
 ## 55.2.0 - 2018-12-31
-* [#741](https://github.com/stripe/stripe-go/pull/741) Add missing parameters `InvoiceNow` and `Prorate` for subscription cancellation
+* [#741](https://github.com/openbnb/stripe-go/pull/741) Add missing parameters `InvoiceNow` and `Prorate` for subscription cancellation
 
 ## 55.1.0 - 2018-12-27
-* [#743](https://github.com/stripe/stripe-go/pull/743) Add support for `clear_usage` on `SubscriptionItem` deletion
+* [#743](https://github.com/openbnb/stripe-go/pull/743) Add support for `clear_usage` on `SubscriptionItem` deletion
 
 ## 55.0.0 - 2018-12-13
-* [#739](https://github.com/stripe/stripe-go/pull/739) Use `ApplicationFee` struct for `FeeRefund.Fee` (minor breaking change)
+* [#739](https://github.com/openbnb/stripe-go/pull/739) Use `ApplicationFee` struct for `FeeRefund.Fee` (minor breaking change)
 
 ## 54.2.0 - 2018-11-30
-* [#734](https://github.com/stripe/stripe-go/pull/734) Put `/v1/` prefix as part of all paths instead of URL
+* [#734](https://github.com/openbnb/stripe-go/pull/734) Put `/v1/` prefix as part of all paths instead of URL
 
 ## 54.1.1 - 2018-11-30
-* [#733](https://github.com/stripe/stripe-go/pull/733) Fix malformed URL generated for the uploads API when using `NewBackends`
+* [#733](https://github.com/openbnb/stripe-go/pull/733) Fix malformed URL generated for the uploads API when using `NewBackends`
 
 ## 54.1.0 - 2018-11-28
-* [#730](https://github.com/stripe/stripe-go/pull/730) Add support for the Review resource
-* [#731](https://github.com/stripe/stripe-go/pull/731) Add missing properties on the Refund resource
+* [#730](https://github.com/openbnb/stripe-go/pull/730) Add support for the Review resource
+* [#731](https://github.com/openbnb/stripe-go/pull/731) Add missing properties on the Refund resource
 
 ## 54.0.0 - 2018-11-27
-* [#721](https://github.com/stripe/stripe-go/pull/721) Add support for `RadarValueList` and `RadarValueListItem`
-* [#721](https://github.com/stripe/stripe-go/pull/721) Remove `Closed` and `Forgiven` from `InvoiceParams`
-* [#721](https://github.com/stripe/stripe-go/pull/721) Add `PaidOutOfBand` to `InvoicePayParams`
+* [#721](https://github.com/openbnb/stripe-go/pull/721) Add support for `RadarValueList` and `RadarValueListItem`
+* [#721](https://github.com/openbnb/stripe-go/pull/721) Remove `Closed` and `Forgiven` from `InvoiceParams`
+* [#721](https://github.com/openbnb/stripe-go/pull/721) Add `PaidOutOfBand` to `InvoicePayParams`
 
 ## 53.4.0 - 2018-11-26
-* [#728](https://github.com/stripe/stripe-go/pull/728) Add `IssuingCard` to `EphemeralKeyParams`
+* [#728](https://github.com/openbnb/stripe-go/pull/728) Add `IssuingCard` to `EphemeralKeyParams`
 
 ## 53.3.0 - 2018-11-26
-* [#727](https://github.com/stripe/stripe-go/pull/727) Add support for `TransferData` on payment intent create and update
+* [#727](https://github.com/openbnb/stripe-go/pull/727) Add support for `TransferData` on payment intent create and update
 
 ## 53.2.0 - 2018-11-21
-* [#725](https://github.com/stripe/stripe-go/pull/725) Improved error deserialization
+* [#725](https://github.com/openbnb/stripe-go/pull/725) Improved error deserialization
 
 ## 53.1.0 - 2018-11-15
-* [#723](https://github.com/stripe/stripe-go/pull/723) Add support for `last_payment_error` on `PaymentIntent`.
-* [#724](https://github.com/stripe/stripe-go/pull/724) Add support for `transfer_data[destination]` on `PaymentIntent`.
+* [#723](https://github.com/openbnb/stripe-go/pull/723) Add support for `last_payment_error` on `PaymentIntent`.
+* [#724](https://github.com/openbnb/stripe-go/pull/724) Add support for `transfer_data[destination]` on `PaymentIntent`.
 
 ## 53.0.1 - 2018-11-12
-* [#714](https://github.com/stripe/stripe-go/pull/714) Fix bug in retry logic that would cause the client to panic
+* [#714](https://github.com/openbnb/stripe-go/pull/714) Fix bug in retry logic that would cause the client to panic
 
 ## 53.0.0 - 2018-11-08
-* [#716](https://github.com/stripe/stripe-go/pull/716) Drop support for Go 1.8.
-* [#715](https://github.com/stripe/stripe-go/pull/715) Ship changes to the `PaymentIntent` resource to match the final layout.
-* [#717](https://github.com/stripe/stripe-go/pull/717) Add support for `flat_amount` on `Plan` tiers.
-* [#718](https://github.com/stripe/stripe-go/pull/718) Add support for `supported_transfer_countries` on `CountrySpec`.
-* [#720](https://github.com/stripe/stripe-go/pull/720) Add support for `review` on `PaymentIntent`.
-* [#707](https://github.com/stripe/stripe-go/pull/707) Add new invoice methods and fixes to the Issuing Cardholder resource (multiple breaking changes)
+* [#716](https://github.com/openbnb/stripe-go/pull/716) Drop support for Go 1.8.
+* [#715](https://github.com/openbnb/stripe-go/pull/715) Ship changes to the `PaymentIntent` resource to match the final layout.
+* [#717](https://github.com/openbnb/stripe-go/pull/717) Add support for `flat_amount` on `Plan` tiers.
+* [#718](https://github.com/openbnb/stripe-go/pull/718) Add support for `supported_transfer_countries` on `CountrySpec`.
+* [#720](https://github.com/openbnb/stripe-go/pull/720) Add support for `review` on `PaymentIntent`.
+* [#707](https://github.com/openbnb/stripe-go/pull/707) Add new invoice methods and fixes to the Issuing Cardholder resource (multiple breaking changes)
     * Move to API version 2018-11-08.
     * Add support for new API methods, properties and parameters for `Invoice`.
     * Add support for `default_source` on `Subscription` and `Invoice`.
 
 ## 52.1.0 - 2018-10-31
-* [#705](https://github.com/stripe/stripe-go/pull/705) Add support for the `Person` resource
-* [#706](https://github.com/stripe/stripe-go/pull/706) Add support for the `WebhookEndpoint` resource
+* [#705](https://github.com/openbnb/stripe-go/pull/705) Add support for the `Person` resource
+* [#706](https://github.com/openbnb/stripe-go/pull/706) Add support for the `WebhookEndpoint` resource
 
 ## 52.0.0 - 2018-10-29
-* [#711](https://github.com/stripe/stripe-go/pull/711) Set `Request.GetBody` when making requests
-* [#711](https://github.com/stripe/stripe-go/pull/711) Drop support for Go 1.7 (hasn't been supported by Go core since the release of Go 1.9 in August 2017)
+* [#711](https://github.com/openbnb/stripe-go/pull/711) Set `Request.GetBody` when making requests
+* [#711](https://github.com/openbnb/stripe-go/pull/711) Drop support for Go 1.7 (hasn't been supported by Go core since the release of Go 1.9 in August 2017)
 
 ## 51.4.0 - 2018-10-19
-* [#708](https://github.com/stripe/stripe-go/pull/708) Add Stripe Terminal endpoints to master to `client.API` 
+* [#708](https://github.com/openbnb/stripe-go/pull/708) Add Stripe Terminal endpoints to master to `client.API` 
 
 ## 51.3.0 - 2018-10-09
-* [#704](https://github.com/stripe/stripe-go/pull/704) Add support for `subscription_cancel_at_period_end` on the Upcoming Invoice API.
+* [#704](https://github.com/openbnb/stripe-go/pull/704) Add support for `subscription_cancel_at_period_end` on the Upcoming Invoice API.
 
 ## 51.2.0 - 2018-10-09
-* [#702](https://github.com/stripe/stripe-go/pull/702) Add support for `delivery_success` filter when listing Events.
+* [#702](https://github.com/openbnb/stripe-go/pull/702) Add support for `delivery_success` filter when listing Events.
 
 ## 51.1.0 - 2018-10-03
-* [#700](https://github.com/stripe/stripe-go/pull/700) Add support for `on_behalf_of` on Subscription and Charge resources.
+* [#700](https://github.com/openbnb/stripe-go/pull/700) Add support for `on_behalf_of` on Subscription and Charge resources.
 
 ## 51.0.0 - 2018-09-27
-* [#698](https://github.com/stripe/stripe-go/pull/698) Move to API version 2018-09-24
+* [#698](https://github.com/openbnb/stripe-go/pull/698) Move to API version 2018-09-24
     * Rename `FileUpload` to `File` (and all `FileUpload*` structs to `File*`)
 	* Fix file links client
 
 ## 50.0.0 - 2018-09-24
-* [#695](https://github.com/stripe/stripe-go/pull/695) Rename `Transaction` to `DisputedTransaction` in `IssuingDisputeParams` (minor breaking change)
-* [#695](https://github.com/stripe/stripe-go/pull/695) Add support for Stripe Terminal
+* [#695](https://github.com/openbnb/stripe-go/pull/695) Rename `Transaction` to `DisputedTransaction` in `IssuingDisputeParams` (minor breaking change)
+* [#695](https://github.com/openbnb/stripe-go/pull/695) Add support for Stripe Terminal
 
 ## 49.2.0 - 2018-09-24
-* [#697](https://github.com/stripe/stripe-go/pull/697) Fix `number` JSON tag on the `IssuingCardDetails` resource.
+* [#697](https://github.com/openbnb/stripe-go/pull/697) Fix `number` JSON tag on the `IssuingCardDetails` resource.
 
 ## 49.1.0 - 2018-09-11
-* [#694](https://github.com/stripe/stripe-go/pull/694) Add `ErrorCodeResourceMissing` error code constant
+* [#694](https://github.com/openbnb/stripe-go/pull/694) Add `ErrorCodeResourceMissing` error code constant
 
 ## 49.0.0 - 2018-09-11
-* [#693](https://github.com/stripe/stripe-go/pull/693) Change `Product` under `Plan` from a string to a full `Product` struct pointer (this is a minor breaking change -- upgrade by changing to `plan.Product.ID`)
+* [#693](https://github.com/openbnb/stripe-go/pull/693) Change `Product` under `Plan` from a string to a full `Product` struct pointer (this is a minor breaking change -- upgrade by changing to `plan.Product.ID`)
 
 ## 48.3.0 - 2018-09-06
-* [#691](https://github.com/stripe/stripe-go/pull/691) Add `InvoicePrefix` to `Customer` and `CustomerParams`
+* [#691](https://github.com/openbnb/stripe-go/pull/691) Add `InvoicePrefix` to `Customer` and `CustomerParams`
 
 ## 48.2.0 - 2018-09-05
-* [#690](https://github.com/stripe/stripe-go/pull/690) Add support for reporting resources
+* [#690](https://github.com/openbnb/stripe-go/pull/690) Add support for reporting resources
 
 ## 48.1.0 - 2018-09-05
-* [#683](https://github.com/stripe/stripe-go/pull/683) Add `StatusTransitions` filter parameters to `OrderListParams`
+* [#683](https://github.com/openbnb/stripe-go/pull/683) Add `StatusTransitions` filter parameters to `OrderListParams`
 
 ## 48.0.0 - 2018-09-05
-* [#681](https://github.com/stripe/stripe-go/pull/681) Handle deserialization of `OrderItem` parent into an object if expanded (minor breaking change)
+* [#681](https://github.com/openbnb/stripe-go/pull/681) Handle deserialization of `OrderItem` parent into an object if expanded (minor breaking change)
 
 ## 47.0.0 - 2018-09-04
 * New major version for better compatibility with Go's new module system (no breaking changes)
 
 ## 46.1.0 - 2018-09-04
-* [#688](https://github.com/stripe/stripe-go/pull/688) Encode `Params` in `AppendToAsSourceOrExternalAccount` (bug fix)
-* [#689](https://github.com/stripe/stripe-go/pull/689) Add `go.mod` for the new module system
+* [#688](https://github.com/openbnb/stripe-go/pull/688) Encode `Params` in `AppendToAsSourceOrExternalAccount` (bug fix)
+* [#689](https://github.com/openbnb/stripe-go/pull/689) Add `go.mod` for the new module system
 
 ## 46.0.0 - 2018-09-04
-* [#686](https://github.com/stripe/stripe-go/pull/686) Add `Mandate` and `Receiver` to `SourceObjectParams` and change `Date` on `SourceMandateAcceptance` to `int64` (minor breaking change)
+* [#686](https://github.com/openbnb/stripe-go/pull/686) Add `Mandate` and `Receiver` to `SourceObjectParams` and change `Date` on `SourceMandateAcceptance` to `int64` (minor breaking change)
 
 ## 45.0.0 - 2018-08-30
-* [#680](https://github.com/stripe/stripe-go/pull/680) Change `SubscriptionTaxPercent` on `Invoice` from `int64` to `float64` (minor breaking change)
+* [#680](https://github.com/openbnb/stripe-go/pull/680) Change `SubscriptionTaxPercent` on `Invoice` from `int64` to `float64` (minor breaking change)
 
 ## 44.0.0 - 2018-08-28
-* [#678](https://github.com/stripe/stripe-go/pull/678) Allow payment intent capture to take its own parameters
+* [#678](https://github.com/openbnb/stripe-go/pull/678) Allow payment intent capture to take its own parameters
 
 ## 43.1.1 - 2018-08-28
-* [#675](https://github.com/stripe/stripe-go/pull/675) Fix incorrectly encoded parameter in `UsageRecordSummaryListParams`
+* [#675](https://github.com/openbnb/stripe-go/pull/675) Fix incorrectly encoded parameter in `UsageRecordSummaryListParams`
 
 ## 43.1.0 - 2018-08-28
-* [#669](https://github.com/stripe/stripe-go/pull/669) Add `AuthorizationCode` to `Charge`
-* [#671](https://github.com/stripe/stripe-go/pull/671) Fix deserialization of `TaxID` on `CustomerTaxInfo`
+* [#669](https://github.com/openbnb/stripe-go/pull/669) Add `AuthorizationCode` to `Charge`
+* [#671](https://github.com/openbnb/stripe-go/pull/671) Fix deserialization of `TaxID` on `CustomerTaxInfo`
 
 ## 43.0.0 - 2018-08-23
-* [#668](https://github.com/stripe/stripe-go/pull/668) Move to API version 2018-08-23
+* [#668](https://github.com/openbnb/stripe-go/pull/668) Move to API version 2018-08-23
     * Add `TaxInfo` and `TaxInfoVerification` to `Customer`
 	* Rename `Amount` to `UnitAmount` on `PlanTierParams`
 	* Remove `BusinessVATID` from `Customer`
 	* Remove `AtPeriodEnd` from `SubscriptionCancelParams`
 
 ## 42.3.0 - 2018-08-23
-* [#667](https://github.com/stripe/stripe-go/pull/667) Add `Forgive` to `InvoicePayParams`
+* [#667](https://github.com/openbnb/stripe-go/pull/667) Add `Forgive` to `InvoicePayParams`
 
 ## 42.2.0 - 2018-08-22
-* [#666](https://github.com/stripe/stripe-go/pull/666) Add `Subscription` to `SubscriptionItem`
+* [#666](https://github.com/openbnb/stripe-go/pull/666) Add `Subscription` to `SubscriptionItem`
 
 ## 42.1.0 - 2018-08-22
-* [#664](https://github.com/stripe/stripe-go/pull/664) Add `AvailablePayoutMethods` to `Card`
+* [#664](https://github.com/openbnb/stripe-go/pull/664) Add `AvailablePayoutMethods` to `Card`
 
 ## 42.0.0 - 2018-08-20
-* [#663](https://github.com/stripe/stripe-go/pull/663) Add support for usage record summaries and rename `Live` on `IssuerFraudRecord, `SourceTransaction`, and `UsageRecord` to `Livemode` (a minor breaking change)
+* [#663](https://github.com/openbnb/stripe-go/pull/663) Add support for usage record summaries and rename `Live` on `IssuerFraudRecord, `SourceTransaction`, and `UsageRecord` to `Livemode` (a minor breaking change)
 
 ## 41.0.0 - 2018-08-17
-* [#659](https://github.com/stripe/stripe-go/pull/659) Remove mutating Bitcoin receiver API calls (these were no longer functional anyway)
-* [#661](https://github.com/stripe/stripe-go/pull/661) Correct `IssuingCardShipping`'s type to `int64`
-* [#662](https://github.com/stripe/stripe-go/pull/662) Rename `IssuingCardShipping`'s `Eta` to `ETA`
+* [#659](https://github.com/openbnb/stripe-go/pull/659) Remove mutating Bitcoin receiver API calls (these were no longer functional anyway)
+* [#661](https://github.com/openbnb/stripe-go/pull/661) Correct `IssuingCardShipping`'s type to `int64`
+* [#662](https://github.com/openbnb/stripe-go/pull/662) Rename `IssuingCardShipping`'s `Eta` to `ETA`
 
 ## 40.2.0 - 2018-08-15
-* [#657](https://github.com/stripe/stripe-go/pull/657) Use integer-indexed encoding for all arrays
+* [#657](https://github.com/openbnb/stripe-go/pull/657) Use integer-indexed encoding for all arrays
 
 ## 40.1.0 - 2018-08-10
-* [#656](https://github.com/stripe/stripe-go/pull/656) Expose new `ValidatePayload` functions for validating incoming payloads without constructing an event
+* [#656](https://github.com/openbnb/stripe-go/pull/656) Expose new `ValidatePayload` functions for validating incoming payloads without constructing an event
 
 ## 40.0.2 - 2018-08-07
-* [#652](https://github.com/stripe/stripe-go/pull/652) Change the type of `FileUpload.Links` to `FileLinkList` (this is a bug fix given that the previous type would never have worked)
+* [#652](https://github.com/openbnb/stripe-go/pull/652) Change the type of `FileUpload.Links` to `FileLinkList` (this is a bug fix given that the previous type would never have worked)
 
 ## 40.0.1 - 2018-08-07
-* [#653](https://github.com/stripe/stripe-go/pull/653) All `BackendImplementation`s should sleep by default on retries
+* [#653](https://github.com/openbnb/stripe-go/pull/653) All `BackendImplementation`s should sleep by default on retries
 
 ## 40.0.0 - 2018-08-06
-* [#648](https://github.com/stripe/stripe-go/pull/648) Introduce buffers so a request's body can be read multiple times (this modifies the interface of a few exported internal functions so it's technically breaking, but it will probably not be breaking for most users)
-* [#649](https://github.com/stripe/stripe-go/pull/649) Rename `BackendConfiguration` to `BackendImplementation` (likewise, technically breaking, but minor)
-* [#650](https://github.com/stripe/stripe-go/pull/650) Export `webhook.ComputeSignature`
+* [#648](https://github.com/openbnb/stripe-go/pull/648) Introduce buffers so a request's body can be read multiple times (this modifies the interface of a few exported internal functions so it's technically breaking, but it will probably not be breaking for most users)
+* [#649](https://github.com/openbnb/stripe-go/pull/649) Rename `BackendConfiguration` to `BackendImplementation` (likewise, technically breaking, but minor)
+* [#650](https://github.com/openbnb/stripe-go/pull/650) Export `webhook.ComputeSignature`
 
 ## 39.0.0 - 2018-08-04
-* [#646](https://github.com/stripe/stripe-go/pull/646) Set request body before every retry (this modifies the interface of a few exported internal functions so it's technically breaking, but it will probably not be breaking for most users)
+* [#646](https://github.com/openbnb/stripe-go/pull/646) Set request body before every retry (this modifies the interface of a few exported internal functions so it's technically breaking, but it will probably not be breaking for most users)
 
 ## 38.2.0 - 2018-08-03
-* [#644](https://github.com/stripe/stripe-go/pull/644) Add support for file links
-* [#645](https://github.com/stripe/stripe-go/pull/645) Add support for `Cancel` to topups
+* [#644](https://github.com/openbnb/stripe-go/pull/644) Add support for file links
+* [#645](https://github.com/openbnb/stripe-go/pull/645) Add support for `Cancel` to topups
 
 ## 38.1.0 - 2018-08-01
-* [#643](https://github.com/stripe/stripe-go/pull/643) Bug fix and various code/logging improvements to retry code
+* [#643](https://github.com/openbnb/stripe-go/pull/643) Bug fix and various code/logging improvements to retry code
 
 ## 38.0.0 - 2018-07-30
-* [#641](https://github.com/stripe/stripe-go/pull/641) Minor breaking changes to correct a few naming inconsistencies:
+* [#641](https://github.com/openbnb/stripe-go/pull/641) Minor breaking changes to correct a few naming inconsistencies:
     * `IdentityVerificationDetailsCodeScanIdCountryNotSupported` becomes `IdentityVerificationDetailsCodeScanIDCountryNotSupported`
     * `IdentityVerificationDetailsCodeScanIdTypeNotSupported` becomes `IdentityVerificationDetailsCodeScanIDTypeNotSupported`
     * `BitcoinUri` on `BitcoinReceiver` becomes `BitcoinURI`
     * `NetworkId` on `IssuingAuthorization` becomes `NetworkID`
 
 ## 37.0.0 - 2018-07-30
-* [#637](https://github.com/stripe/stripe-go/pull/637) Add support for Sigma scheduled query runs
-* [#639](https://github.com/stripe/stripe-go/pull/639) Move to API version `2018-07-27` (breaking)
+* [#637](https://github.com/openbnb/stripe-go/pull/637) Add support for Sigma scheduled query runs
+* [#639](https://github.com/openbnb/stripe-go/pull/639) Move to API version `2018-07-27` (breaking)
     * Remove `SKUs` from `Product`
     * Subscription creation and update can no longer take a source
     * Change `PercentOff` on coupon struct and params from integer to float
-* [#640](https://github.com/stripe/stripe-go/pull/640) Add missing field `Created` to `Account`
+* [#640](https://github.com/openbnb/stripe-go/pull/640) Add missing field `Created` to `Account`
 
 ## 36.3.0 - 2018-07-27
-* [#636](https://github.com/stripe/stripe-go/pull/636) Add `RiskScore` to `ChargeOutcome`
+* [#636](https://github.com/openbnb/stripe-go/pull/636) Add `RiskScore` to `ChargeOutcome`
 
 ## 36.2.0 - 2018-07-26
-* [#635](https://github.com/stripe/stripe-go/pull/635) Add support for Stripe Issuing
+* [#635](https://github.com/openbnb/stripe-go/pull/635) Add support for Stripe Issuing
 
 ## 36.1.2 - 2018-07-24
-* [#633](https://github.com/stripe/stripe-go/pull/633) Fix encoding of list params for bank accounts and cards
+* [#633](https://github.com/openbnb/stripe-go/pull/633) Fix encoding of list params for bank accounts and cards
 
 ## 36.1.1 - 2018-07-17
-* [#627](https://github.com/stripe/stripe-go/pull/627) Wire an `http.Client` from `NewBackends` through to backends
+* [#627](https://github.com/openbnb/stripe-go/pull/627) Wire an `http.Client` from `NewBackends` through to backends
 
 ## 36.1.0 - 2018-07-11
-* [#624](https://github.com/stripe/stripe-go/pull/624) Add `AutoAdvance` for `Invoice`
+* [#624](https://github.com/openbnb/stripe-go/pull/624) Add `AutoAdvance` for `Invoice`
 
 ## 36.0.0 - 2018-07-09
-* [#606](https://github.com/stripe/stripe-go/pull/606) Add support for payment intents
-* [#623](https://github.com/stripe/stripe-go/pull/623) Changed `Payout.Destination` from `string` to `*PayoutDestination` to support expanding (minor breaking change)
+* [#606](https://github.com/openbnb/stripe-go/pull/606) Add support for payment intents
+* [#623](https://github.com/openbnb/stripe-go/pull/623) Changed `Payout.Destination` from `string` to `*PayoutDestination` to support expanding (minor breaking change)
 
 ## 35.13.0 - 2018-07-06
-* [#622](https://github.com/stripe/stripe-go/pull/622) Correct position of `DeclineChargeOn` (it was added accidentally on `LegalEntityParams` when it should have been on `AccountParams`)
+* [#622](https://github.com/openbnb/stripe-go/pull/622) Correct position of `DeclineChargeOn` (it was added accidentally on `LegalEntityParams` when it should have been on `AccountParams`)
 
 ## 35.12.0 - 2018-07-05
-* [#620](https://github.com/stripe/stripe-go/pull/620) Add support for `Quantity` and `UnitAmount` to `InvoiceItemParams` and `Quantity` to `InvoiceItem`
+* [#620](https://github.com/openbnb/stripe-go/pull/620) Add support for `Quantity` and `UnitAmount` to `InvoiceItemParams` and `Quantity` to `InvoiceItem`
 
 ## 35.11.0 - 2018-07-05
-* [#618](https://github.com/stripe/stripe-go/pull/618) Add support for `DeclineChargeOn` to `Account` and `AccountParams`
+* [#618](https://github.com/openbnb/stripe-go/pull/618) Add support for `DeclineChargeOn` to `Account` and `AccountParams`
 
 ## 35.10.0 - 2018-07-04
-* [#616](https://github.com/stripe/stripe-go/pull/616) Adding missing clients to the `API` struct including a `UsageRecords` entry
+* [#616](https://github.com/openbnb/stripe-go/pull/616) Adding missing clients to the `API` struct including a `UsageRecords` entry
 
 ## 35.9.0 - 2018-07-03
-* [#611](https://github.com/stripe/stripe-go/pull/611) Introduce `GetBackendWithConfig` and make logging configurable per backend
+* [#611](https://github.com/openbnb/stripe-go/pull/611) Introduce `GetBackendWithConfig` and make logging configurable per backend
 
 ## 35.8.0 - 2018-06-28
-* [#607](https://github.com/stripe/stripe-go/pull/607) Add support for `PartnerID` from `stripe.SetAppInfo`
+* [#607](https://github.com/openbnb/stripe-go/pull/607) Add support for `PartnerID` from `stripe.SetAppInfo`
 
 ## 35.7.0 - 2018-06-26
-* [#604](https://github.com/stripe/stripe-go/pull/604) Add extra parameters `CustomerReference` and `ShippingFromZip` to `ChargeLevel3Params` and `ChargeLevel3`
+* [#604](https://github.com/openbnb/stripe-go/pull/604) Add extra parameters `CustomerReference` and `ShippingFromZip` to `ChargeLevel3Params` and `ChargeLevel3`
 
 ## 35.6.0 - 2018-06-25
-* [#603](https://github.com/stripe/stripe-go/pull/603) Add support for Level III data on charge creation
+* [#603](https://github.com/openbnb/stripe-go/pull/603) Add support for Level III data on charge creation
 
 ## 35.5.0 - 2018-06-22
-* [#601](https://github.com/stripe/stripe-go/pull/601) Add missing parameters for retrieving an upcoming invoice
+* [#601](https://github.com/openbnb/stripe-go/pull/601) Add missing parameters for retrieving an upcoming invoice
 
 ## 35.4.0 - 2018-06-21
-* [#599](https://github.com/stripe/stripe-go/pull/599) Add `ExchangeRate` to `BalanceTransaction`
+* [#599](https://github.com/openbnb/stripe-go/pull/599) Add `ExchangeRate` to `BalanceTransaction`
 
 ## 35.3.0 - 2018-06-20
-* [#596](https://github.com/stripe/stripe-go/pull/596) Add `Type` to `ProductListParams` so that products can be listed by type
+* [#596](https://github.com/openbnb/stripe-go/pull/596) Add `Type` to `ProductListParams` so that products can be listed by type
 
 ## 35.2.0 - 2018-06-19
-* [#595](https://github.com/stripe/stripe-go/pull/595) Add `Product` to `PlanListParams` so that plans can be listed by product
+* [#595](https://github.com/openbnb/stripe-go/pull/595) Add `Product` to `PlanListParams` so that plans can be listed by product
 
 ## 35.1.0 - 2018-06-17
-* [#592](https://github.com/stripe/stripe-go/pull/592) Add `Name` field to `Coupon` and `CouponParams`
+* [#592](https://github.com/openbnb/stripe-go/pull/592) Add `Name` field to `Coupon` and `CouponParams`
 
 ## 35.0.0 - 2018-06-15
-* [#557](https://github.com/stripe/stripe-go/pull/557) Add automatic retries for intermittent errors (enabling using `BackendConfiguration.SetMaxNetworkRetries`)
-* [#589](https://github.com/stripe/stripe-go/pull/589) Fix all `Get` methods to support standardized parameter structs + remove some deprecated functions
+* [#557](https://github.com/openbnb/stripe-go/pull/557) Add automatic retries for intermittent errors (enabling using `BackendConfiguration.SetMaxNetworkRetries`)
+* [#589](https://github.com/openbnb/stripe-go/pull/589) Fix all `Get` methods to support standardized parameter structs + remove some deprecated functions
 	* `IssuerFraudRecordListParams` now uses `*string` for `Charge` (set it using `stripe.String` like elsewhere)
 	* `event.Get` now takes `stripe.EventParams` instead of `Params` for consistency
 	* The `Get` method for `countryspec`, `exchangerate`, `issuerfraudrecord` now take an extra params struct parameter to be consistent and allow setting a connected account (use `stripe.CountrySpecParams`, `stripe.ExchangeRateParams`, and `IssuerFraudRecordParams`)
@@ -278,177 +278,177 @@
 	* `loginlink.New` now properly passes its params struct into its API call
 
 ## 34.3.0 - 2018-06-14
-* [#587](https://github.com/stripe/stripe-go/pull/587) Use `net/http` constants instead of string literals for HTTP verbs (this is an internal cleanup and should not affect library behavior)
+* [#587](https://github.com/openbnb/stripe-go/pull/587) Use `net/http` constants instead of string literals for HTTP verbs (this is an internal cleanup and should not affect library behavior)
 
 ## 34.2.0 - 2018-06-14
-* [#581](https://github.com/stripe/stripe-go/pull/581) Push parameter encoding into `BackendConfiguration.Call` (this is an internal cleanup and should not affect library behavior)
+* [#581](https://github.com/openbnb/stripe-go/pull/581) Push parameter encoding into `BackendConfiguration.Call` (this is an internal cleanup and should not affect library behavior)
 
 ## 34.1.0 - 2018-06-13
-* [#586](https://github.com/stripe/stripe-go/pull/586) Add `AmountPaid`, `AmountRemaining`, `BillingReason` (including new `InvoiceBillingReason` and constants), and `SubscriptionProrationDate` to `Invoice`
+* [#586](https://github.com/openbnb/stripe-go/pull/586) Add `AmountPaid`, `AmountRemaining`, `BillingReason` (including new `InvoiceBillingReason` and constants), and `SubscriptionProrationDate` to `Invoice`
 
 ## 34.0.0 - 2018-06-12
-* [#585](https://github.com/stripe/stripe-go/pull/585) Remove `File` in favor of `FileUpload`, and consolidating both classes which were already nearly identical except `MIMEType` has been replaced by `Type` (this is technically a breaking change, but quite a small one)
+* [#585](https://github.com/openbnb/stripe-go/pull/585) Remove `File` in favor of `FileUpload`, and consolidating both classes which were already nearly identical except `MIMEType` has been replaced by `Type` (this is technically a breaking change, but quite a small one)
 
 ## 33.1.0 - 2018-06-12
-* [#578](https://github.com/stripe/stripe-go/pull/578) Improve expansion parsing by not discarding unmarshal errors
+* [#578](https://github.com/openbnb/stripe-go/pull/578) Improve expansion parsing by not discarding unmarshal errors
 
 ## 33.0.0 - 2018-06-11
-* [#583](https://github.com/stripe/stripe-go/pull/583) Add new account constants, rename one, and fix `DueBy` (this is technically a breaking change, but quite a small one)
+* [#583](https://github.com/openbnb/stripe-go/pull/583) Add new account constants, rename one, and fix `DueBy` (this is technically a breaking change, but quite a small one)
 
 ## 32.4.1 - 2018-06-11
-* [#582](https://github.com/stripe/stripe-go/pull/582) Fix unmarshaling of `LegalEntity` (specifically when we have `legal_entity[additional_owners][][verification]`) so that it comes out as a struct
+* [#582](https://github.com/openbnb/stripe-go/pull/582) Fix unmarshaling of `LegalEntity` (specifically when we have `legal_entity[additional_owners][][verification]`) so that it comes out as a struct
 
 ## 32.4.0 - 2018-06-07
-* [#577](https://github.com/stripe/stripe-go/pull/577) Add `DocumentBack` to account legal entity identity verification parameters and response
+* [#577](https://github.com/openbnb/stripe-go/pull/577) Add `DocumentBack` to account legal entity identity verification parameters and response
 
 ## 32.3.0 - 2018-06-07
-* [#576](https://github.com/stripe/stripe-go/pull/576) Fix plan transform usage to use `BucketSize` instead of `DivideBy`; note this is technically a breaking API change, but we've released it as a minor because the previous manifestation didn't work
+* [#576](https://github.com/openbnb/stripe-go/pull/576) Fix plan transform usage to use `BucketSize` instead of `DivideBy`; note this is technically a breaking API change, but we've released it as a minor because the previous manifestation didn't work
 
 ## 32.2.0 - 2018-06-06
-* [#571](https://github.com/stripe/stripe-go/pull/571) Add `HostedInvoiceURL` and `InvoicePDF` to `Invoice`
-* [#573](https://github.com/stripe/stripe-go/pull/573) Add `FormatURLPath` helper to allow safer URL path building
+* [#571](https://github.com/openbnb/stripe-go/pull/571) Add `HostedInvoiceURL` and `InvoicePDF` to `Invoice`
+* [#573](https://github.com/openbnb/stripe-go/pull/573) Add `FormatURLPath` helper to allow safer URL path building
 
 ## 32.1.0 - 2018-06-06
-* [#572](https://github.com/stripe/stripe-go/pull/572) Add `Active` to plan parameters and response
+* [#572](https://github.com/openbnb/stripe-go/pull/572) Add `Active` to plan parameters and response
 
 ## 32.0.1 - 2018-06-06
-* [#569](https://github.com/stripe/stripe-go/pull/569) Fix unmarshaling of expanded transaction sources in balance transactions
+* [#569](https://github.com/openbnb/stripe-go/pull/569) Fix unmarshaling of expanded transaction sources in balance transactions
 
 ## 32.0.0 - 2018-06-06
-* [#544](https://github.com/stripe/stripe-go/pull/544) **MAJOR** changes that make all fields on parameter structs pointers, and rename many fields on parameter and response structs to be consistent with naming in the REST API; we've written [a migration guide with complete details](https://github.com/stripe/stripe-go/blob/master/v32_migration_guide.md) to help with the upgrade
+* [#544](https://github.com/openbnb/stripe-go/pull/544) **MAJOR** changes that make all fields on parameter structs pointers, and rename many fields on parameter and response structs to be consistent with naming in the REST API; we've written [a migration guide with complete details](https://github.com/openbnb/stripe-go/blob/master/v32_migration_guide.md) to help with the upgrade
 
 ## 31.0.0 - 2018-06-06
-* [#566](https://github.com/stripe/stripe-go/pull/566) Support `DisputeParams` in `dispute.Close`
+* [#566](https://github.com/openbnb/stripe-go/pull/566) Support `DisputeParams` in `dispute.Close`
 
 ## 30.8.1 - 2018-05-24
-* [#562](https://github.com/stripe/stripe-go/pull/562) Add `go.mod` for vgo support
+* [#562](https://github.com/openbnb/stripe-go/pull/562) Add `go.mod` for vgo support
 
 ## 30.8.0 - 2018-05-22
-* [#558](https://github.com/stripe/stripe-go/pull/558) Add `SubscriptionItem` to `InvoiceLine`
+* [#558](https://github.com/openbnb/stripe-go/pull/558) Add `SubscriptionItem` to `InvoiceLine`
 
 ## 30.7.0 - 2018-05-09
-* [#552](https://github.com/stripe/stripe-go/pull/552) Add support for issuer fraud records
+* [#552](https://github.com/openbnb/stripe-go/pull/552) Add support for issuer fraud records
 
 ## 30.6.1 - 2018-05-04
-* [#550](https://github.com/stripe/stripe-go/pull/550) Append standard `Params` as well as card options when encoding `CardParams`
+* [#550](https://github.com/openbnb/stripe-go/pull/550) Append standard `Params` as well as card options when encoding `CardParams`
 
 ## 30.6.0 - 2018-04-17
-* [#546](https://github.com/stripe/stripe-go/pull/546) Add `SubParams.TrialFromPlan` and `SubItemsParams.ClearUsage`
+* [#546](https://github.com/openbnb/stripe-go/pull/546) Add `SubParams.TrialFromPlan` and `SubItemsParams.ClearUsage`
 
 ## 30.5.0 - 2018-04-09
-* [#543](https://github.com/stripe/stripe-go/pull/543) Support listing orders by customer (add `Customer` to `OrderListParams`)
+* [#543](https://github.com/openbnb/stripe-go/pull/543) Support listing orders by customer (add `Customer` to `OrderListParams`)
 
 ## 30.4.0 - 2018-04-06
-* [#541](https://github.com/stripe/stripe-go/pull/541) Add `Mandate` on `Source` (and associated mandate structs)
+* [#541](https://github.com/openbnb/stripe-go/pull/541) Add `Mandate` on `Source` (and associated mandate structs)
 
 ## 30.3.0 - 2018-04-02
-* [#538](https://github.com/stripe/stripe-go/pull/538) Introduce flexible billing primitives for subscriptions
+* [#538](https://github.com/openbnb/stripe-go/pull/538) Introduce flexible billing primitives for subscriptions
 
 ## 30.2.0 - 2018-03-23
-* [#535](https://github.com/stripe/stripe-go/pull/535) Add constant for redirect status `not_required` (`RedirectFlowStatusNotRequired`)
+* [#535](https://github.com/openbnb/stripe-go/pull/535) Add constant for redirect status `not_required` (`RedirectFlowStatusNotRequired`)
 
 ## 30.1.0 - 2018-03-17
-* [#534](https://github.com/stripe/stripe-go/pull/534) Add `AmountZero` to `InvoiceItemParams`
+* [#534](https://github.com/openbnb/stripe-go/pull/534) Add `AmountZero` to `InvoiceItemParams`
 
 ## 30.0.0 - 2018-03-14
-* [#533](https://github.com/stripe/stripe-go/pull/533) Make `DestPayment` under `Transfer` expandable by changing it from a string to a `Charge`
+* [#533](https://github.com/openbnb/stripe-go/pull/533) Make `DestPayment` under `Transfer` expandable by changing it from a string to a `Charge`
 
 ## 29.3.1 - 2018-03-08
-* [#530](https://github.com/stripe/stripe-go/pull/530) Fix mixed up types in `CountrySpec.SupportedBankAccountCurrencies`
+* [#530](https://github.com/openbnb/stripe-go/pull/530) Fix mixed up types in `CountrySpec.SupportedBankAccountCurrencies`
 
 ## 29.3.0 - 2018-03-01
-* [#527](https://github.com/stripe/stripe-go/pull/527) Add `MaidenName`, `PersonalIDNumber`, `PersonalIDNumberProvided` fields to `Owner` struct
+* [#527](https://github.com/openbnb/stripe-go/pull/527) Add `MaidenName`, `PersonalIDNumber`, `PersonalIDNumberProvided` fields to `Owner` struct
 
 ## 29.2.0 - 2018-02-26
-* [#525](https://github.com/stripe/stripe-go/pull/525) Support shipping carrier and tracking number in orders
-* [#526](https://github.com/stripe/stripe-go/pull/526) Fix ignored `commonParams` when returning an order
+* [#525](https://github.com/openbnb/stripe-go/pull/525) Support shipping carrier and tracking number in orders
+* [#526](https://github.com/openbnb/stripe-go/pull/526) Fix ignored `commonParams` when returning an order
 
 ## 29.1.1 - 2018-02-21
-* [#522](https://github.com/stripe/stripe-go/pull/522) Bump API version and fix creating plans with a product
+* [#522](https://github.com/openbnb/stripe-go/pull/522) Bump API version and fix creating plans with a product
 
 ## 29.1.0 - 2018-02-21
-* [#520](https://github.com/stripe/stripe-go/pull/520) Add support for topups
+* [#520](https://github.com/openbnb/stripe-go/pull/520) Add support for topups
 
 ## 29.0.1 - 2018-02-16
 **WARNING:** Please use 29.1.1 instead.
-* [#519](https://github.com/stripe/stripe-go/pull/519) Correct the implementation of `PaymentSource.MarshalJSON` to also handle bank account sources
+* [#519](https://github.com/openbnb/stripe-go/pull/519) Correct the implementation of `PaymentSource.MarshalJSON` to also handle bank account sources
 
 ## 29.0.0 - 2018-02-14
 **WARNING:** Please use 29.1.1 instead.
-* [#518](https://github.com/stripe/stripe-go/pull/518) Bump API version to 2018-02-06 and add support for Product & Plan API
+* [#518](https://github.com/openbnb/stripe-go/pull/518) Bump API version to 2018-02-06 and add support for Product & Plan API
 
 ## 28.12.0 - 2018-02-09
-* [#517](https://github.com/stripe/stripe-go/pull/517) Add `BillingCycleAnchor` to `Sub` and `BillingCycleAnchorUnchanged` to `SubParams`
+* [#517](https://github.com/openbnb/stripe-go/pull/517) Add `BillingCycleAnchor` to `Sub` and `BillingCycleAnchorUnchanged` to `SubParams`
 
 ## 28.11.0 - 2018-01-29
-* [#516](https://github.com/stripe/stripe-go/pull/516) Add `AmountZero` to `PlanParams` to it's possible to send zero values when creating or updating a plan
+* [#516](https://github.com/openbnb/stripe-go/pull/516) Add `AmountZero` to `PlanParams` to it's possible to send zero values when creating or updating a plan
 
 ## 28.10.1 - 2018-01-18
-* [#512](https://github.com/stripe/stripe-go/pull/512) Encode empty values found in maps (like `Meta`)
+* [#512](https://github.com/openbnb/stripe-go/pull/512) Encode empty values found in maps (like `Meta`)
 
 ## 28.10.0 - 2018-01-09
-* [#509](https://github.com/stripe/stripe-go/pull/509) Plumb through additional possible errors when unmarshaling polymorphic types (please test your integrations while upgrading)
+* [#509](https://github.com/openbnb/stripe-go/pull/509) Plumb through additional possible errors when unmarshaling polymorphic types (please test your integrations while upgrading)
 
 ## 28.9.0 - 2018-01-08
-* [#506](https://github.com/stripe/stripe-go/pull/506) Add support for recursing into slices in `event.GetObjValue`
+* [#506](https://github.com/openbnb/stripe-go/pull/506) Add support for recursing into slices in `event.GetObjValue`
 
 ## 28.8.0 - 2017-12-12
-* [#500](https://github.com/stripe/stripe-go/pull/500) Support sharing for bank accounts and cards (adds `ID` field to bank account and charge parameters)
+* [#500](https://github.com/openbnb/stripe-go/pull/500) Support sharing for bank accounts and cards (adds `ID` field to bank account and charge parameters)
 
 ## 28.7.0 - 2017-12-05
-* [#494](https://github.com/stripe/stripe-go/pull/494) Add `Automatic` to `Payout` struct
+* [#494](https://github.com/openbnb/stripe-go/pull/494) Add `Automatic` to `Payout` struct
 
 ## 28.6.1 - 2017-11-02
-* [#492](https://github.com/stripe/stripe-go/pull/492) Correct name of user agent header used to send Go version to Stripe's API
+* [#492](https://github.com/openbnb/stripe-go/pull/492) Correct name of user agent header used to send Go version to Stripe's API
 
 ## 28.6.0 - 2017-10-31
-* [#491](https://github.com/stripe/stripe-go/pull/491) Support for exchange rates APIs
+* [#491](https://github.com/openbnb/stripe-go/pull/491) Support for exchange rates APIs
 
 ## 28.5.0 - 2017-10-27
-* [#488](https://github.com/stripe/stripe-go/pull/488) Support for listing source transactions
+* [#488](https://github.com/openbnb/stripe-go/pull/488) Support for listing source transactions
 
 ## 28.4.2 - 2017-10-25
-* [#486](https://github.com/stripe/stripe-go/pull/486) Send the required `object=bank_account` parameter when adding a bank account through an account
-* [#487](https://github.com/stripe/stripe-go/pull/487) Make bank account's `account_holder_name` and `account_holder_type` parameters truly optional
+* [#486](https://github.com/openbnb/stripe-go/pull/486) Send the required `object=bank_account` parameter when adding a bank account through an account
+* [#487](https://github.com/openbnb/stripe-go/pull/487) Make bank account's `account_holder_name` and `account_holder_type` parameters truly optional
 
 ## 28.4.1 - 2017-10-24
-* [#484](https://github.com/stripe/stripe-go/pull/484) Error early when params not specified for card-related API calls
+* [#484](https://github.com/openbnb/stripe-go/pull/484) Error early when params not specified for card-related API calls
 
 ## 28.4.0 - 2017-10-19
-* [#477](https://github.com/stripe/stripe-go/pull/477) Support context on API requests with `Params.Context` and `ListParams.Context`
+* [#477](https://github.com/openbnb/stripe-go/pull/477) Support context on API requests with `Params.Context` and `ListParams.Context`
 
 ## 28.3.2 - 2017-10-19
-* [#479](https://github.com/stripe/stripe-go/pull/479) Pass token in only one of `external_account` *or* source when appending card
+* [#479](https://github.com/openbnb/stripe-go/pull/479) Pass token in only one of `external_account` *or* source when appending card
 
 ## 28.3.1 - 2017-10-17
-* [#476](https://github.com/stripe/stripe-go/pull/476) Make initializing new backends concurrency-safe
+* [#476](https://github.com/openbnb/stripe-go/pull/476) Make initializing new backends concurrency-safe
 
 ## 28.3.0 - 2017-10-10
-* [#359](https://github.com/stripe/stripe-go/pull/359) Add support for verify sources (added `Values` on `SourceVerifyParams`)
+* [#359](https://github.com/openbnb/stripe-go/pull/359) Add support for verify sources (added `Values` on `SourceVerifyParams`)
 
 ## 28.2.0 - 2017-10-09
-* [#472](https://github.com/stripe/stripe-go/pull/472) Add support for `statement_descriptor` in source objects
-* [#473](https://github.com/stripe/stripe-go/pull/473) Add support for detaching sources from customers
+* [#472](https://github.com/openbnb/stripe-go/pull/472) Add support for `statement_descriptor` in source objects
+* [#473](https://github.com/openbnb/stripe-go/pull/473) Add support for detaching sources from customers
 
 ## 28.1.0 - 2017-10-05
-* [#471](https://github.com/stripe/stripe-go/pull/471) Add support for `RedirectFlow.FailureReason` for sources
+* [#471](https://github.com/openbnb/stripe-go/pull/471) Add support for `RedirectFlow.FailureReason` for sources
 
 ## 28.0.1 - 2017-10-03
-* [#468](https://github.com/stripe/stripe-go/pull/468) Fix encoding of pointer-based scalars (e.g. `Active *bool` in `Product`)
-* [#470](https://github.com/stripe/stripe-go/pull/470) Fix concurrent race in `form` package's encoding caches
+* [#468](https://github.com/openbnb/stripe-go/pull/468) Fix encoding of pointer-based scalars (e.g. `Active *bool` in `Product`)
+* [#470](https://github.com/openbnb/stripe-go/pull/470) Fix concurrent race in `form` package's encoding caches
 
 ## 28.0.0 - 2017-09-27
-* [#467](https://github.com/stripe/stripe-go/pull/467) Change `Product.Get` to include `ProductParams` for request metadata
-* [#467](https://github.com/stripe/stripe-go/pull/467) Fix sending extra parameters on product and SKU requests
+* [#467](https://github.com/openbnb/stripe-go/pull/467) Change `Product.Get` to include `ProductParams` for request metadata
+* [#467](https://github.com/openbnb/stripe-go/pull/467) Fix sending extra parameters on product and SKU requests
 
 ## 27.0.2 - 2017-09-26
-* [#465](https://github.com/stripe/stripe-go/pull/465) Fix encoding of `CVC` parameter in `CardParams`
+* [#465](https://github.com/openbnb/stripe-go/pull/465) Fix encoding of `CVC` parameter in `CardParams`
 
 ## 27.0.1 - 2017-09-20
-* [#461](https://github.com/stripe/stripe-go/pull/461) Fix encoding of `TypeData` under sources
+* [#461](https://github.com/openbnb/stripe-go/pull/461) Fix encoding of `TypeData` under sources
 
 ## 27.0.0 - 2017-09-19
-* [#458](https://github.com/stripe/stripe-go/pull/458) Remove `ChargeParams.Token` (this seems like it was added accidentally)
+* [#458](https://github.com/openbnb/stripe-go/pull/458) Remove `ChargeParams.Token` (this seems like it was added accidentally)
 
 ## 26.0.0 - 2017-09-17
 * Introduce `form` package so it's no longer necessary to build conditional structures to encode parameters -- this may result in parameters that were set but previously not encoded to now be encoded so **PLEASE TEST CAREFULLY WHEN UPGRADING**!
