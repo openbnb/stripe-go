@@ -249,7 +249,11 @@ func (s *BackendImplementation) NewRequest(method, path, key, contentType string
 	authorization := "Bearer " + key
 
 	req.Header.Add("Authorization", authorization)
-	req.Header.Add("Stripe-Version", apiversion)
+	if path == "/v1/accounts" {
+		req.Header.Add("Stripe-Version", fmt.Sprintf("%s%s", apiversion, "; accounts_upgrade=true"))
+	} else {
+		req.Header.Add("Stripe-Version", apiversion)
+	}
 	req.Header.Add("User-Agent", encodedUserAgent)
 	req.Header.Add("Content-Type", contentType)
 	req.Header.Add("X-Stripe-Client-User-Agent", encodedStripeUserAgent)
