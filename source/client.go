@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	stripe "github.com/stripe/stripe-go"
+	stripe github.com/openbnb/stripe-go"
 )
 
 // Client is used to invoke /sources APIs.
