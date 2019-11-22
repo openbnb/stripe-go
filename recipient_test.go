@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	"github.com/openbnb/stripe-go/form"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestRecipientParams_AppendTo(t *testing.T) {

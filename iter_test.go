@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	"github.com/openbnb/stripe-go/form"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestIterEmpty(t *testing.T) {
