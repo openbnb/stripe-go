@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	stripe "github.com/openbnb/stripe-go"
 	"github.com/openbnb/stripe-go/form"
 	. "github.com/openbnb/stripe-go/testing"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestRangeQueryParamsAppendTo(t *testing.T) {

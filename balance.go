@@ -19,6 +19,7 @@ type Balance struct {
 
 // Amount is a structure wrapping an amount value and its currency.
 type Amount struct {
-	Value    int64    `json:"amount"`
-	Currency Currency `json:"currency"`
+	Value       int64            `json:"amount"`
+	Currency    Currency         `json:"currency"`
+	SourceTypes map[string]int64 `json:"source_types"`
 }

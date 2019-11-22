@@ -3,8 +3,8 @@ package mandate
 import (
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	_ "github.com/openbnb/stripe-go/testing"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestMandateMethodGet(t *testing.T) {

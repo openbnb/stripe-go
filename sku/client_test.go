@@ -3,9 +3,9 @@ package sku
 import (
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	stripe "github.com/openbnb/stripe-go"
 	_ "github.com/openbnb/stripe-go/testing"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestSKUDel(t *testing.T) {

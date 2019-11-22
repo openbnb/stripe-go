@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	assert "github.com/stretchr/testify/require"
 	"github.com/openbnb/stripe-go/form"
+	assert "github.com/stretchr/testify/require"
 )
 
 func TestPlan_Unmarshal(t *testing.T) {
