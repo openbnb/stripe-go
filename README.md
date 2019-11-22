@@ -1,6 +1,6 @@
 # Go Stripe
 
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/stripe/stripe-go)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/openbnb/stripe-go)
 [![Build Status](https://travis-ci.org/stripe/stripe-go.svg?branch=master)](https://travis-ci.org/stripe/stripe-go)
 [![Coverage Status](https://coveralls.io/repos/github/stripe/stripe-go/badge.svg?branch=master)](https://coveralls.io/github/stripe/stripe-go?branch=master)
 
@@ -11,15 +11,15 @@ The official [Stripe][stripe] Go client library.
 Install stripe-go with:
 
 ```sh
-go get -u github.com/stripe/stripe-go
+go get -u github.com/openbnb/stripe-go
 ```
 
 Then, import it using:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go"
-    "github.com/stripe/stripe-go/customer"
+    "github.com/openbnb/stripe-go"
+    "github.com/openbnb/stripe-go/customer"
 )
 ```
 
@@ -40,7 +40,7 @@ suffix* in the path like so:
 module github.com/my/package
 
 require (
-    github.com/stripe/stripe-go v67.5.0
+    github.com/openbnb/stripe-go v67.5.0
 )
 ```
 
@@ -48,8 +48,8 @@ And use the same style of import paths as above:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go"
-    "github.com/stripe/stripe-go/customer"
+    "github.com/openbnb/stripe-go"
+    "github.com/openbnb/stripe-go/customer"
 )
 ```
 
@@ -138,8 +138,8 @@ To use a key, pass it to `API`'s `Init` function:
 ```go
 
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 stripe := &client.API{}
@@ -160,8 +160,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -197,8 +197,8 @@ client.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/$resource$"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/$resource$"
 )
 
 // Setup
@@ -237,8 +237,8 @@ individual key.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 // Setup
@@ -275,8 +275,8 @@ problem by configuring the maximum number of retries:
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/client"
 )
 
 config := &stripe.BackendConfig{
@@ -410,15 +410,15 @@ pull request][pulls].
 [api-changelog]: https://stripe.com/docs/upgrades
 [connect]: https://stripe.com/docs/connect/authentication
 [depgomodsupport]: https://github.com/golang/dep/pull/1963
-[godoc]: http://godoc.org/github.com/stripe/stripe-go
-[gomodrevert]: https://github.com/stripe/stripe-go/pull/774
-[gomodvsdep]: https://github.com/stripe/stripe-go/pull/712
+[godoc]: http://godoc.org/github.com/openbnb/stripe-go
+[gomodrevert]: https://github.com/openbnb/stripe-go/pull/774
+[gomodvsdep]: https://github.com/openbnb/stripe-go/pull/712
 [idempotency-keys]: https://stripe.com/docs/api/ruby#idempotent_requests
-[issues]: https://github.com/stripe/stripe-go/issues/new
+[issues]: https://github.com/openbnb/stripe-go/issues/new
 [logrus]: https://github.com/sirupsen/logrus/
 [modules]: https://github.com/golang/go/wiki/Modules
 [package-management]: https://code.google.com/p/go-wiki/wiki/PackageManagementTools
-[pulls]: https://github.com/stripe/stripe-go/pulls
+[pulls]: https://github.com/openbnb/stripe-go/pulls
 [stripe]: https://stripe.com
 [stripe-mock]: https://github.com/stripe/stripe-mock
 [stripe-mock-usage]: https://github.com/stripe/stripe-mock#usage

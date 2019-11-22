@@ -3,8 +3,8 @@ package dispute
 import (
 	"net/http"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/form"
+	stripe "github.com/openbnb/stripe-go"
+	"github.com/openbnb/stripe-go/form"
 )
 
 // Client is used to invoke dispute-related APIs.
