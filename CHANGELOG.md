@@ -1,5 +1,18 @@
 # Changelog
 
+## 67.9.0 - 2019-11-26
+* [#997](https://github.com/stripe/stripe-go/pull/997) Add new refund reason `RefundReasonExpiredUncapturedCharge`
+
+## 67.8.0 - 2019-11-26
+* [#998](https://github.com/stripe/stripe-go/pull/998) Add support for `CreditNote` preview
+
+## 67.7.0 - 2019-11-25
+* [#996](https://github.com/stripe/stripe-go/pull/996) Add support for `OutOfBandAmount` on `CreditNote` creation
+* [#995](https://github.com/stripe/stripe-go/pull/995) Fix comment typos
+
+## 67.6.0 - 2019-11-22
+* [#994](https://github.com/stripe/stripe-go/pull/994) Support for the `now` on `StartDate` on Subscription Schedule creation
+
 ## 67.5.0 - 2019-11-21
 * [#993](https://github.com/openbnb/stripe-go/pull/993) Add `PaymentIntent` filter when listing `Dispute`s
 
