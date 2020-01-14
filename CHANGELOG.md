@@ -1,5 +1,40 @@
 # Changelog
 
+## 68.8.0 - 2020-01-08
+* [#1011](https://github.com/stripe/stripe-go/pull/1011) Add support for `InvoiceItem` and fix `Livemode` on `InvoiceLine`
+
+## 68.7.0 - 2020-01-07
+* [#1008](https://github.com/stripe/stripe-go/pull/1008) Add `ReportingCategory` to `BalanceTransaction`
+
+## 68.6.0 - 2020-01-06
+* [#1009](https://github.com/stripe/stripe-go/pull/1009) Add constant for `TaxIDTypeSGUEN` on `TaxId`
+
+## 68.5.0 - 2020-01-03
+* [#1007](https://github.com/stripe/stripe-go/pull/1007) Add support for `SpendingLimitsCurrency` on Issuing `Card` and `Cardholder`
+
+## 68.4.0 - 2019-12-20
+* [#1006](https://github.com/stripe/stripe-go/pull/1006) Adds `ExecutivesProvided` to `Account`
+
+## 68.3.0 - 2019-12-19
+* [#1005](https://github.com/stripe/stripe-go/pull/1005) Add `Metadata` and `Livemode` to Terminal `Reader` and `Location'
+
+## 68.2.0 - 2019-12-09
+* [#1002](https://github.com/stripe/stripe-go/pull/1002) Add support for AU BECS Debit on PaymentMethod
+
+## 68.1.0 - 2019-12-04
+* [#1001](https://github.com/stripe/stripe-go/pull/1001) Add support for `Network` on `Charge`
+
+## 68.0.0 - 2019-12-03
+* [#1000](https://github.com/stripe/stripe-go/pull/1000) Multiple breaking changes:
+  * Pin to API version `2019-12-03`
+  * Rename `InvoiceBillingStatus` to `InvoiceStatus` for consistency
+  * Remove typo-ed field `OutOfBankdAmount` on `CreditNote`
+  * Remove deprecated `PaymentIntentPaymentMethodOptionsCardRequestThreeDSecureChallengeOnly` and `SetupIntentPaymentMethodOptionsCardRequestThreeDSecureChallengeOnly` from `PaymentIntent` and `SetupIntent`.
+  * Remove `OperatorAccount` on `TerminalLocationListParams`
+
+## 67.10.0 - 2019-12-02
+* [#999](https://github.com/stripe/stripe-go/pull/999) Add support for `Status` filter when listing `Invoice`s.
+
 ## 67.9.0 - 2019-11-26
 * [#997](https://github.com/stripe/stripe-go/pull/997) Add new refund reason `RefundReasonExpiredUncapturedCharge`
 

@@ -28,7 +28,7 @@ import (
 
 const (
 	// APIVersion is the currently supported API version
-	APIVersion string = "2019-11-05"
+	APIVersion string = "2019-12-03"
 
 	// APIBackend is a constant representing the API service backend.
 	APIBackend SupportedBackend = "api"
@@ -950,7 +950,7 @@ func StringSlice(v []string) []*string {
 const apiURL = "https://api.stripe.com"
 
 // clientversion is the binding version
-const clientversion = "67.9.0"
+const clientversion = "68.8.0"
 
 // defaultHTTPTimeout is the default timeout on the http.Client used by the library.
 // This is chosen to be consistent with the other Stripe language libraries and
